@@ -1,5 +1,5 @@
-import { defineStore } from "pinia"
-import { reactive } from "vue"
+import { defineStore } from 'pinia'
+import { reactive } from 'vue'
 import type { User } from '@/types/user'
 
 export const useUserStore = defineStore(
@@ -7,14 +7,14 @@ export const useUserStore = defineStore(
   () => {
     const user: User = reactive({
       name: '',
-      id: ''
+      id: '',
     })
     return { user }
   },
   {
     persist: {
       storage: localStorage,
-      pick: ['user.id']
-    }
-  }
+      pick: ['user.id'],
+    },
+  },
 )
