@@ -10,7 +10,7 @@ export default defineConfig(({ mode }) => {
   return {
     base: env.VITE_PUBLIC_PATH,
     build: {
-      outDir: 'static',
+      outDir: 'html',
     },
     plugins: [
       vue(),
