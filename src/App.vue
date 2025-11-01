@@ -1,7 +1,7 @@
 <template>
-  <container> 开发中...... </container>
+  <div>developing...</div>
 </template>
 <script setup lang="ts">
-import { container } from '@/components/container'
 </script>
-<style scoped lang="scss"></style>
+<style scoped lang="scss">
+</style>

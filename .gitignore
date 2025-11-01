@@ -11,6 +11,7 @@ html
 node_modules
 .DS_Store
 dist
+base-vue3-vite-ts*
 dist-ssr
 coverage
 *.local

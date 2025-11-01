@@ -6,6 +6,7 @@ export const useUserStore = defineStore(
   'user',
   () => {
     const user: User = reactive({
+      token: '',
       name: '',
       id: '',
     })
@@ -14,7 +15,7 @@ export const useUserStore = defineStore(
   {
     persist: {
       storage: localStorage,
-      pick: ['user.id'],
+      // pick: ['user.id'],
     },
   },
 )

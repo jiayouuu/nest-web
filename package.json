@@ -1,6 +1,7 @@
 {
-  "name": "nest-web",
-  "version": "0.0.0",
+  "name": "base-vue3-vite-ts",
+  "title": "vue3-vite-ts-starter",
+  "version": "1.0.0",
   "private": true,
   "type": "module",
   "scripts": {
@@ -13,6 +14,7 @@
     "format": "prettier --write src/"
   },
   "dependencies": {
+    "axios": "^1.12.2",
     "mitt": "^3.0.1",
     "pinia": "^3.0.3",
     "pinia-plugin-persistedstate": "^4.4.1",
@@ -35,6 +37,8 @@
     "sass-embedded": "^1.89.2",
     "typescript": "~5.8.0",
     "vite": "npm:rolldown-vite@latest",
+    "vite-plugin-cdn-import": "^1.0.1",
+    "vite-plugin-html": "^3.2.2",
     "vue-tsc": "^2.2.10"
   }
 }
